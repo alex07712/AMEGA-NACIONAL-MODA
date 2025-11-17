@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMEGA - Diseños Únicos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagen/logo1.png" alt="AMEGA Logo" style="height: 40px;">
+                <h1>AMEGⱯ</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#disenos">Diseños</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>BOLSAS UNICAS ECHAS DE CAMISAS</h2>
+            <p>Cada bolsa echa por amega tiene un diseño único</p>
+            <button onclick="scrollToSection('disenos')">Ver Diseños</button>
+        </div>
+    </section>
+
+    <section id="disenos" class="designs">
+        <h2>Nuestros Diseños</h2>
+        <p class="centered-text">Nuevos diseños cada semana</p>
+        <div class="designs-grid" id="designsGrid">
+            <!-- Los diseños se cargan con JavaScript -->
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>¿Te gusta algún diseño? ¡Escríbenos!</p>
+        <div class="contact-info">
+            <p>📱 WhatsApp: <strong>+52 961 752 2184</strong></p>
+            <p>📧 Email: <strong>amega2025mode@gmail.com</strong></p>
+            <p>📸 Instagram: <strong>@amegaoficial</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bolsas de Camisas. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
